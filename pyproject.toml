@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Beautiful HTML visualizations for Claude API Message objects"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT"}
+license = "MIT"
 keywords = ["anthropic", "claude", "api", "visualization", "jupyter", "ipython", "notebook"]
 authors = [
   {name = "Frankie Warren", email = "frankiewarren@users.noreply.github.com"}
