@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-message-visualizer"
+version = "0.1.0"
+description = "Beautiful HTML visualizations for Claude API Message objects"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = ["anthropic", "claude", "api", "visualization", "jupyter", "ipython", "notebook"]
+authors = [
+  {name = "Frankie Warren", email = "frankiewarren@users.noreply.github.com"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "anthropic>=0.40.0",
+    "ipython>=7.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/frankiewarren/claude-message-visualizer"
+Documentation = "https://github.com/frankiewarren/claude-message-visualizer#readme"
+Repository = "https://github.com/frankiewarren/claude-message-visualizer"
+Issues = "https://github.com/frankiewarren/claude-message-visualizer/issues"
